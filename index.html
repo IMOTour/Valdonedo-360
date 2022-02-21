@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Project Title</title>
+<meta charset="utf-8">
+<meta name="viewport" content="target-densitydpi=device-dpi, width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no, minimal-ui" />
+<style> @-ms-viewport { width: device-width; } </style>
+<link rel="stylesheet" href="vendor/reset.min.css">
+<link rel="stylesheet" href="style.css">
+</head>
+<body class="multiple-scenes ">
+
+<div id="pano"></div>
+
+<div id="sceneList">
+  <ul class="scenes">
+    
+      <a href="javascript:void(0)" class="scene" data-id="0-gate">
+        <li class="text">gate</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="1-inside-gate">
+        <li class="text">inside gate</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="2-sitting-room-entrance">
+        <li class="text">sitting room entrance</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="3-service-entrance">
+        <li class="text">service entrance</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="4-dining-room-entrance">
+        <li class="text">dining room entrance</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="5-service-areas">
+        <li class="text">service areas</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="6-stable-and-storage">
+        <li class="text">stable and storage</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="7-south-corner">
+        <li class="text">south corner</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="8-above-storage">
+        <li class="text">above storage</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="9-oven">
+        <li class="text">oven</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="10-grain-store">
+        <li class="text">grain store</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="11-keepers-hall">
+        <li class="text">keeper&#39;s hall</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="12-keepers-sitting-room">
+        <li class="text">keeper&#39;s sitting room</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="13-keepers-bedroom">
+        <li class="text">keeper&#39;s bedroom</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="14-keepers-kitchen">
+        <li class="text">keeper&#39;s kitchen</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="15-keepers-patio">
+        <li class="text">keeper&#39;s patio</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="16-lower-storage">
+        <li class="text">lower storage</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="17-lower-storage-2">
+        <li class="text">lower storage 2</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="18-access-main-house">
+        <li class="text">access main house</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="19-storage-3">
+        <li class="text">storage 3</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="20-keepers-patio-corner">
+        <li class="text">keeper&#39;s patio corner</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="21-hay-store">
+        <li class="text">hay store</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="22-sheep-house">
+        <li class="text">sheep house</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="23-dining-room-field-side">
+        <li class="text">dining room field side</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="24-field-view">
+        <li class="text">field view</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="25-sitting-room-field-side">
+        <li class="text">sitting room field side</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="26-workers-area">
+        <li class="text">worker&#39;s area</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="27-store">
+        <li class="text">store</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="28-workers-wc">
+        <li class="text">worker&#39;s wc</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="29-workers-room">
+        <li class="text">worker&#39;s room</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="30-corridor-1">
+        <li class="text">corridor 1</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="31-corridor-2">
+        <li class="text">corridor 2</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="32-kitchen">
+        <li class="text">kitchen</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="33-corridor-3">
+        <li class="text">corridor 3</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="34-dining-room">
+        <li class="text">dining room</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="35-pantry">
+        <li class="text">pantry</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="36-tea-room">
+        <li class="text">tea room</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="37-bedroom-1">
+        <li class="text">bedroom 1</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="38-hall">
+        <li class="text">hall</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="39-corridor-0">
+        <li class="text">corridor 0</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="40-sitting-room">
+        <li class="text">sitting room</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="41-under-stairs-entrance">
+        <li class="text">under stairs entrance</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="42-stairs-midway">
+        <li class="text">stairs midway</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="43-wc---mezanine">
+        <li class="text">wc - mezanine</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="44-upper-corridor-1">
+        <li class="text">upper corridor 1</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="45-terrace-gate-view">
+        <li class="text">terrace gate view</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="46-oratory">
+        <li class="text">oratory</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="47-bedroom-2">
+        <li class="text">bedroom 2</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="48-upper-corridor-2">
+        <li class="text">upper corridor 2</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="49-bedroom-3">
+        <li class="text">bedroom 3</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="50-bedroom-4">
+        <li class="text">bedroom 4</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="51-upper-corridor-3">
+        <li class="text">upper corridor 3</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="52-terrace-south-view">
+        <li class="text">terrace south view</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="53-main-wc">
+        <li class="text">main wc</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="54-bedroom-5">
+        <li class="text">bedroom 5</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="55-bedroom-6">
+        <li class="text">bedroom 6</li>
+      </a>
+    
+  </ul>
+</div>
+
+<div id="titleBar">
+  <h1 class="sceneName"></h1>
+</div>
+
+<a href="javascript:void(0)" id="autorotateToggle">
+  <img class="icon off" src="img/play.png">
+  <img class="icon on" src="img/pause.png">
+</a>
+
+<a href="javascript:void(0)" id="fullscreenToggle">
+  <img class="icon off" src="img/fullscreen.png">
+  <img class="icon on" src="img/windowed.png">
+</a>
+
+<a href="javascript:void(0)" id="sceneListToggle">
+  <img class="icon off" src="img/expand.png">
+  <img class="icon on" src="img/collapse.png">
+</a>
+
+<a href="javascript:void(0)" id="viewUp" class="viewControlButton viewControlButton-1">
+  <img class="icon" src="img/up.png">
+</a>
+<a href="javascript:void(0)" id="viewDown" class="viewControlButton viewControlButton-2">
+  <img class="icon" src="img/down.png">
+</a>
+<a href="javascript:void(0)" id="viewLeft" class="viewControlButton viewControlButton-3">
+  <img class="icon" src="img/left.png">
+</a>
+<a href="javascript:void(0)" id="viewRight" class="viewControlButton viewControlButton-4">
+  <img class="icon" src="img/right.png">
+</a>
+<a href="javascript:void(0)" id="viewIn" class="viewControlButton viewControlButton-5">
+  <img class="icon" src="img/plus.png">
+</a>
+<a href="javascript:void(0)" id="viewOut" class="viewControlButton viewControlButton-6">
+  <img class="icon" src="img/minus.png">
+</a>
+
+<script src="vendor/screenfull.min.js" ></script>
+<script src="vendor/bowser.min.js" ></script>
+<script src="vendor/marzipano.js" ></script>
+
+<script src="data.js"></script>
+<script src="index.js"></script>
+
+</body>
+</html>
